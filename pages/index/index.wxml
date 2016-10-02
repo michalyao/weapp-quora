@@ -1,14 +1,8 @@
 <!--index.wxml-->
 
-<view class="container" animation= "{{animation}}">
+<view class="container" animation= "{{animation}}" bindtap="getQuote">
   <view class="quote-text" animation="{{ animation }}" >
     <text class="content" animation="{{ animation }}">{{ text }}</text>
     <view class="quote-author"> by {{author}} </view>
-  </view>
-
-  
-
-  <view class="buttons effect-shine">
-    <button bindtap="getQuote">Next</button>
   </view>
 </view>

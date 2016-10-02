@@ -38,7 +38,7 @@ Page({
     //调用应用实例的方法获取全局数据
     this.animation = wx.createAnimation({
       timingFunction: 'ease',
-      delay: 400
+      delay: 600
     });
 
   }
